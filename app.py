@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import tensorflow
+import matplotlib.pyplot as plt
 import requests
 
 def fetch_poster(movie_id):
